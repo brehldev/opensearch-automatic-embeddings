@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":enableVulnerabilityAlerts",
+    ":automergeDigest",
+    ":automergeTesters",
+    ":automergeMinor"
+  ],
+  "schedule": [
+   "before 8am on Sunday"
+  ],
+  "timezone": "America/New_York",
+  "prConcurrentLimit": 8
+}

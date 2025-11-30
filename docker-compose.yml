@@ -1,7 +1,9 @@
 networks:
   search-net:
     driver: proxy
-
+volumes:
+  opensearch-data1:
+  
 services:
   opensearch:
     image: opensearchproject/opensearch:3
@@ -14,3 +16,5 @@ services:
       - "9200:9200"
     networks:
       - proxy
+    volumes:
+      - opensearch-data1:/usr/share/opensearch/data

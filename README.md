@@ -282,3 +282,5 @@ This setup creates a robust, clean architecture where your application simply st
 
 [OpenRouter Models](https://openrouter.ai/docs/models) - A list of compatible models you can use with this connector setup.
 [OpenSearch ML Commons](https://opensearch.org/docs/latest/ml-commons-plugin/cluster-settings/) - Official documentation for the ml-commons plugin.
+
+This article can also be found on [LinkedIn](https://www.linkedin.com/pulse/building-native-ingestion-pipelines-rag-opensearch-torry-brelsford-whuye/?trackingId=e%2Fh5SK0lTsuxRVpzYZWfIg%3D%3D) & [brehl.dev](https://brehl.dev/blog/automatic-embeddings-with-opensearch/)

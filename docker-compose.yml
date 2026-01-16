@@ -6,7 +6,7 @@ volumes:
   
 services:
   opensearch:
-    image: opensearchproject/opensearch:3@sha256:798cf28e226a32f5c928dd1ed9478dd3a33d2212176aad3679020088ad3afa1a
+    image: opensearchproject/opensearch:3@sha256:1647ce2e07371f1ac8bbad28890a64ef77c5a694a61f656120f0ace09e66bf48
     environment:
       - discovery.type=single-node
       - plugins.security.disabled=true
